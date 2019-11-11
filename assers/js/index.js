@@ -44,55 +44,74 @@ console.log(userValue)
 
 
 
-/*
-let numberFirst = prompt("Please input youre number :");
-numberFirst = parseFloat(numberFirst);
+const numberFirst = prompt("Please input youre number :");
+// numberFirst = parseFloat(numberFirst);
 
-let numberSecond = prompt("Please input youre number :");
-numberSecond = parseFloat(numberSecond);
+const numberSecond = prompt("Please input youre number :");
+// numberSecond = parseFloat(numberSecond);
 
-const
-*/
-
+const sum = numberFirst + numberSecond;
+console.log(sum);
 
 
+const diff = numberFirst-numberSecond;
+console.log(diff);
 
 
-
-
-const x = prompt("Please input youre number :");
-
-
-if(isNaN(x)){
-
-
-
-
+if (numberSecond == 0 ){
+    console.log("cannot be divided by zero");
 
 } else {
-        const result = x % 2; // кратность
-
-    if(result === 0) {
-
-        alert("Number is even");
-
-    } else {
-
-        const result = x % 2; // кратность
-        alert("Number is odd");
-    }
-
-}
-                                                                    //const isNumberEven = result === 0; // строгое равенство
-} else {
-    alert("Value isn`t numbe");
+    const division = numberFirst/numberSecond;
+    console.log(division);
 }
 
+const multiplication = numberFirst * numberSecond;
+console.log(multiplication);
 
-console.log("Reset of programm");
 
 
 
+
+
+
+
+
+
+
+
+//
+//
+//
+// const x = prompt("Please input youre number :");
+//
+//
+// if(isNaN(x)){
+//
+//
+// } else {
+//         const result = x % 2; // кратность
+//
+//     if(result === 0) {
+//
+//         alert("Number is even");
+//
+//     } else {
+//
+//         const result = x % 2; // кратность
+//         alert("Number is odd");
+//     }
+//
+// }           //const isNumberEven = result === 0; // строгое равенство
+// } else {
+//     alert("Value isn`t numbe");
+// }
+//
+//
+// console.log("Reset of programm");
+//
+//
+//
 
 
 
