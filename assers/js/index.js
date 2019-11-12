@@ -44,36 +44,50 @@ console.log(userValue)
 
 
 
+
+
+
+
+
+
+
 const numberFirst = prompt("Please input youre number :");
-// numberFirst = parseFloat(numberFirst);
-
+ //numberFirst = parseFloat(numberFirst);
 const numberSecond = prompt("Please input youre number :");
-// numberSecond = parseFloat(numberSecond);
-
-const sum = numberFirst + numberSecond;
-console.log(sum);
+//numberSecond = parseFloat(numberSecond);
 
 
-const diff = numberFirst-numberSecond;
-console.log(diff);
 
+if(numberFirst && numberSecond ==='d' ) {
 
-if (numberSecond == 0 ){
-    console.log("cannot be divided by zero");
+    console.log("Insert the number");
 
-} else {
-    const division = numberFirst/numberSecond;
-    console.log(division);
 }
-
-const multiplication = numberFirst * numberSecond;
-console.log(multiplication);
-
-
+else {
+    const sum = numberFirst + numberSecond;
+    console.log("sum: ", sum);
 
 
+    const diff = numberFirst - numberSecond;
+    console.log("diff:", diff);
 
 
+    if (numberSecond == 0) {
+
+        console.log("cannot be divided by zero");
+
+    } else {
+        const division = numberFirst / numberSecond;
+        console.log("division:", division);
+
+
+        const multiplication = numberFirst * numberSecond;
+        console.log("multiplication:", multiplication);
+
+
+    }
+
+}
 
 
 
@@ -112,6 +126,7 @@ console.log(multiplication);
 //
 //
 //
+
 
 
 
